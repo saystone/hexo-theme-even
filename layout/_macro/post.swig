@@ -11,7 +11,7 @@
 
       <div class="post-meta">
         <span class="post-time">
-          {{ full_date(post.date, 'll') }}
+          {{ date(post.date, config.date_format) }}
         </span>
       </div>
     </header>
